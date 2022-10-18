@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "jordj1.RussianMap",
+      "title": "RussianMap",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "jordj1",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "jordj1.RussianMap.Level.Russianmap",
+      "title": "Russian map",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "d41b171fbb9640cf95ef20168d4521e1",
+      "tags": [],
+      "packedAssets": [],
+      "multiscene": false,
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.LevelCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
